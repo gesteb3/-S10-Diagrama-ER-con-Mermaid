@@ -65,8 +65,9 @@ erDiagram
 ```
 
 ## Código Mermaid
----
-erDiagram
+
+
+    erdiagram
     CLIENTE {
         int id_cliente PK
         string nombre
@@ -95,4 +96,4 @@ erDiagram
     CLIENTE ||--o{ PEDIDO : "realiza"
     PEDIDO }o--o{ LIBRO : "contiene"
     LIBRO }o--o{ CATEGORIA : "pertenece a"
----
+
