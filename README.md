@@ -64,5 +64,35 @@ erDiagram
     LIBRO }o--o{ CATEGORIA : "pertenece a"
 ```
 
+#Código Mermaid
+erDiagram
+    CLIENTE {
+        int id_cliente PK
+        string nombre
+        string correo
+        string direccion_envio
+    }
+
+    PEDIDO {
+        int id_pedido PK
+        date fecha_pedido
+        float total
+    }
+
+    LIBRO {
+        string ISBN PK
+        string titulo
+        string autor
+        float precio
+    }
+
+    CATEGORIA {
+        int id_categoria PK
+        string nombre
+    }
+
+    CLIENTE ||--o{ PEDIDO : "realiza"
+    PEDIDO }o--o{ LIBRO : "contiene"
+    LIBRO }o--o{ CATEGORIA : "pertenece a"
 
 
