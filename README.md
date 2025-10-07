@@ -65,7 +65,7 @@ erDiagram
 ```
 
 ## Código Mermaid
--
+---
 erDiagram
     CLIENTE {
         int id_cliente PK
