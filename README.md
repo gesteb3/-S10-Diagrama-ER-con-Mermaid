@@ -64,8 +64,8 @@ erDiagram
     LIBRO }o--o{ CATEGORIA : "pertenece a"
 ```
 
-# Código Mermaid
-'''
+## Código Mermaid
+-
 erDiagram
     CLIENTE {
         int id_cliente PK
@@ -95,6 +95,4 @@ erDiagram
     CLIENTE ||--o{ PEDIDO : "realiza"
     PEDIDO }o--o{ LIBRO : "contiene"
     LIBRO }o--o{ CATEGORIA : "pertenece a"
-
-
-```
+---
