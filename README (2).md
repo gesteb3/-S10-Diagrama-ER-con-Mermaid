@@ -1,6 +1,5 @@
-# Diagrama ER - Librería en Línea
+# Diagrama ER 
 
-Este proyecto representa el modelo entidad-relación (ER) para una librería en línea, donde los clientes pueden comprar libros que a su vez pertenecen a categorías.
 
 ## Entidades y atributos
 
